@@ -70,6 +70,7 @@ body
     font-size: 60px;
     line-height: 95px;
     letter-spacing: -0.035em;
+    
 
 
 
@@ -173,3 +174,120 @@ color: #BDBDBD;
 
     color: #FFFFFF;
 }
+
+@media (max-width: 576px) { 
+
+
+#blocPage{
+    height: 900px;
+}
+
+#leftTop{
+ font-size: 20px;
+ left: 10px;
+ top: 10px;
+ 
+}
+
+   #blocTwo #image{
+       width: 320px;
+       height: 320px;
+       
+       top: 40px;
+       left: 120px;
+
+   }
+
+   #article  h1
+{
+    
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 20px;
+    top: 350px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 56px;
+    
+    
+
+
+
+    color: #333333;
+}
+
+#article  p
+{
+    
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 20px;
+    top: 460px;
+
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  
+    
+
+    
+    
+    text-align: justify;
+}
+#article{
+    left: 0;
+    position: absolute;
+}
+
+#lien{
+    top: 615px;
+    left: 20px;
+}
+ 
+
+
+#color{
+    
+    position: absolute;
+    width: 280px;
+    height: 17px;
+    left: 20px;
+    top: 860px;
+    background-color: rgb(135, 126, 145);
+    
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #BDBDBD;
+    }
+
+
+    #end
+{
+    left: 10px;
+    position: absolute;
+    height: 43px;
+    width:450px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+ }
